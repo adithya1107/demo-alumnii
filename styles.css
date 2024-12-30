@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+}
+html{
+    font-size: 62.5%; 
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    display: flex;
+    place-content: center;
+}
+.card-wrapper{
+    width: 50rem;
+    height: 70rem;
+    background: #ccc;
+    padding: 0 10rem;
+    display: grid;
+    place-items: center;
+}
+.card{
+    width: 30rem;
+    height: 40rem;
+    background-color: #eee;
+    border-radius: 2.5rem;
+    box-shadow: 0 2rem 6rem rgba(0,0,0,0.7);
+    position: relative;
+}
+.card-top{
+    width: 100%;
+    height: 65%;
+    background: #f18204;
+    padding:3rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+}
+.card-top-text{
+    color: #fff;
+}
+.card-top-text h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+.card-top-text h2{
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.img-1{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    top: -19rem;
+    right: -7rem;
+}
+.img-2{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    top: -10.3rem;
+    right: -8.5rem;
+}
+.img-3{
+    width: 25rem;
+    height: auto;
+    position: absolute;
+    top: -11.6rem;
+    right: -5.5rem;
+}
+.card-bottom{
+    width: 100%;
+    height: 35%;
+    padding: 2rem 3rem;
+}
+.card-bottom h2{
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.6rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    padding: 10px; 
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 24px; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.social-media a:hover {
+    transform: scale(1.2); 
+    color: #0077b5; 
+}
+
+.social-media a:nth-child(1):hover {
+    color: #e1306c; 
+}
+
+.social-media a:nth-child(2):hover {
+    color: #0077b5; 
+}
+
+.social-media a:nth-child(3):hover {
+    color: #333; 
+}
+
